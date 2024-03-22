@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+header {
+  background-image: url(../media/de8hinh1.png);
+  width: 100%;
+  height: 25vh;
+}
+.div1 {
+  width: 86%;
+  margin: auto;
+}
+header section {
+  width: 100%;
+  height: 15vh;
+}
+.phan1 {
+  background: rgb(47, 187, 215);
+  width: 30%;
+  height: 15vh;
+  float: left;
+}
+.phan2 {
+  background: rgb(100, 100, 223);
+  width: 40%;
+  height: 15vh;
+  float: left;
+}
+.phan3 {
+  background: rgb(47, 187, 215);
+  width: 30%;
+  height: 15vh;
+  float: left;
+}
+header nav {
+  background: yellow;
+  width: 100%;
+  height: 10vh;
+}
+
+main {
+  background-image: url(../media/de8hinh2.png);
+  width: 100%;
+  height: 56vh;
+}
+.div2 {
+  width: 86%;
+  margin: auto;
+}
+.main1 {
+  background: white;
+  width: 100%;
+  height: 10vh;
+}
+.main2 {
+  background: #111110;
+  width: 60%;
+  height: 46vh;
+  float: left;
+}
+.main3 {
+  background: pink;
+  width: 40%;
+  height: 46vh;
+  float: left;
+}
+
+footer {
+  background-image: url(../media/de8hinh1.png);
+  width: 100%;
+  height: 19vh;
+}

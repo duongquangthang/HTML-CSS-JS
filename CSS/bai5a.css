@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+body {
+  background: #efedec;
+}
+
+header {
+  width: 80%;
+  height: 45vh;
+  margin: 0 auto;
+}
+
+header nav {
+  width: 100%;
+  height: 15vh;
+  border-bottom: solid 5px #bc8741;
+  margin-bottom: 1%;
+}
+
+header nav a {
+  display: block;
+  float: right;
+  width: 12%;
+  height: 15%;
+  margin: auto;
+  padding: 5% 1%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  color: orange;
+}
+
+#dangnhap {
+  display: block;
+  float: left;
+  width: 12%;
+  margin-left: 2%;
+  font-weight: 900;
+  font-weight: 1.1rem;
+}
+#anhdangnhap {
+  display: block;
+  float: left;
+  width: 2%;
+  margin: auto;
+  padding-top: 4%;
+}
+header section {
+  background-image: url(../media/de5nen.jpg);
+  background-size: 105%;
+  width: 100%;
+  height: 30vh;
+  background-position: center;
+  background-position: 2% 5%;
+}
+
+header section h1 {
+  color: white;
+  margin: auto;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+}
+header section input {
+  width: 32%;
+  height: 19%;
+  margin: 1% 35%;
+  padding-left: 2%;
+  font-style: italic;
+  font-size: 1.1rem;
+  border-radius: 20px;
+}
+main {
+  width: 80%;
+  height: 55vh;
+  margin: 0 auto;
+}
+
+main div nav {
+  width: 25%;
+  height: 55vh;
+  padding-top: 5%;
+  float: left;
+}
+
+main div nav a {
+  color: #8b8989;
+  border: solid 1px;
+  border-radius: 25px;
+  display: block;
+  width: 80%;
+  height: 15%;
+  margin: auto;
+  padding: 5% 1%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+main div nav a:hover {
+  background: #bc8741;
+  color: white;
+}
+
+main div section {
+  width: auto;
+  height: 55vh;
+}
+
+#hang {
+  width: 25%;
+  float: right;
+  margin: auto;
+  padding-top: 5%;
+}
+
+#hang img {
+  width: 95%;
+  height: max-content;
+}
+
+#tensp {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#gia {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+main div input {
+  float: right;
+  margin-right: 5%;
+  background: #bc8741;
+  width: 40%;
+  height: 4vh;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 0.8%;
+}
